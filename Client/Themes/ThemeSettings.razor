@@ -7,6 +7,24 @@
 
 <div class="container">
     <div class="row mb-1 align-items-center">
+        <Label Class="col-sm-3" For="login" HelpText="Specify if a Login option should be displayed. Note that this option does not prevent the login page from being accessible via a direct url.">Show Login?</Label>
+        <div class="col-sm-9">
+            <select id="login" class="form-select" @bind="@_login">
+                <option value="True">Yes</option>
+                <option value="False">No</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mb-1 align-items-center">
+        <Label Class="col-sm-3" For="search" HelpText="Specify if a search icon should be displayed">Show Search?</Label>
+        <div class="col-sm-9">
+            <select id="search" class="form-select" @bind="@_search">
+                <option value="True">Yes</option>
+                <option value="False">No</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mb-1 align-items-center">
         <Label Class="col-sm-3" For="_navbutton" HelpText="Specify if you wish to include a button in the navigation for this site">Nav Button?</Label>
         <div class="col-sm-9">
             <select id="navbutton" class="form-select" @bind="@_navbutton">
@@ -62,6 +80,8 @@
 
 @code {
     private int pageId = -1;
+    private string _login = "True";
+    private string _search = "True";
     private string _navbutton = "False";
     private string _navbuttontext = "";
     private string _navbuttonurl = "";
@@ -102,6 +122,8 @@
 
         // site settings
         settings = PageState.Site.Settings;
+        _login = SettingService.GetSetting(settings, GetType().Namespace + ":Login", "True");
+        _search = SettingService.GetSetting(settings, GetType().Namespace + ":Search", "True");
         _navbuttontext = SettingService.GetSetting(settings, GetType().Namespace + ":NavButtonText", "");
         _navbuttonurl = SettingService.GetSetting(settings, GetType().Namespace + ":NavButtonUrl", "");
         if (!string.IsNullOrEmpty(_navbuttontext) && !string.IsNullOrEmpty(_navbuttonurl))
@@ -158,6 +180,8 @@
 
             // site settings
             settings = await SettingService.GetSiteSettingsAsync(PageState.Site.SiteId);
+            settings = SettingService.SetSetting(settings, GetType().Namespace + ":Login", _login);
+            settings = SettingService.SetSetting(settings, GetType().Namespace + ":Search", _search);
             settings = SettingService.SetSetting(settings, GetType().Namespace + ":NavButtonText", _navbuttontext);
             settings = SettingService.SetSetting(settings, GetType().Namespace + ":NavButtonUrl", _navbuttonurl);
             settings = SettingService.SetSetting(settings, GetType().Namespace + ":Footer", _footerHTML);

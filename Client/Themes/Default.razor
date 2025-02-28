@@ -26,13 +26,11 @@
             <a class="btn-getstarted" href="@_navbuttonurl">@_navbuttontext</a>
         }
         <div class="mx-3 controls-group">
-            <UserProfile /> <Login /> <ControlPanel />
-            @if (UserSecurity.IsAuthorized(PageState.User, PermissionNames.Edit, PageState.Page.PermissionList))
+            @if (_search)
             {
-                <a href="@_themesettingsurl" class="btn btn-outline-secondary">
-                    <span class="oi oi-brush"></span>
-                </a>
+                <Search AllowTextInput="false" />
             }
+            <UserProfile /> <Login ShowLogin="@_login" /> <ControlPanel />
         </div>
     </div>
 </header>
@@ -57,6 +55,10 @@
         </div>
         <!-- End Page Title -->
     }
+    @if (!PageState.Site.Settings.ContainsKey(GetType().Namespace + ":Login") && UserSecurity.IsAuthorized(PageState.User, PermissionNames.Edit, PageState.Page.PermissionList))
+    {
+        <div class="text-center my-2"><a href="@_themesettingsurl" class="btn btn-primary">Configure Theme Settings</a></div>
+    }
     <Pane Name="@PaneNames.Default" />
 </main>
 <!-- End Main -->
@@ -76,9 +78,11 @@
     public override string Panes => PaneNames.Default;
 
     private string _headerclass = "";
-    private string _hero = "";
+    private bool _login = true;
+    private bool _search = true;
     private string _navbuttontext = "";
     private string _navbuttonurl = "";
+    private string _hero = "";
     private string _footer = "";
     private string _themesettingsurl = "";
 
@@ -96,6 +100,8 @@
             }
 
             // site settings
+            _login = bool.Parse(SettingService.GetSetting(PageState.Site.Settings, GetType().Namespace + ":Login", "True"));
+            _search = bool.Parse(SettingService.GetSetting(PageState.Site.Settings, GetType().Namespace + ":Search", "True"));
             _navbuttontext = SettingService.GetSetting(PageState.Site.Settings, GetType().Namespace + ":NavButtonText", "");
             _navbuttonurl = SettingService.GetSetting(PageState.Site.Settings, GetType().Namespace + ":NavButtonUrl", "");
             _footer = SettingService.GetSetting(PageState.Site.Settings, GetType().Namespace + ":Footer", "");

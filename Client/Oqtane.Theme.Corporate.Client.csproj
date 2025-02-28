@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <Version>6.0.0</Version>
+    <Version>6.0.1</Version>
     <Authors>Oqtane Labs Inc</Authors>
     <Company>Oqtane Labs Inc</Company>
     <Description>Corporate Theme for Oqtane</Description>
@@ -20,13 +20,6 @@
   <ItemGroup>
 	  <PackageReference Include="Oqtane.Client" Version="6.1.0" />
 	  <PackageReference Include="Oqtane.Shared" Version="6.1.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Update="wwwroot\Themes\Oqtane.Theme.Corporate\assets\js\interop.js">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
   </ItemGroup>
 
   <PropertyGroup>

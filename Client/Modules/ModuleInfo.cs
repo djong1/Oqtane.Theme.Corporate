@@ -9,7 +9,7 @@ namespace Oqtane.Module.Corporate
         {
             Name = "Corporate Theme - Content",
             Description = "Add professionally styled content to your page",
-            Version = "6.0.0",
+            Version = "6.0.1",
             PackageName = "Oqtane.Theme.Corporate"
         };
     }

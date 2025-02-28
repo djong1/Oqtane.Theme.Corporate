@@ -10,7 +10,7 @@ namespace Oqtane.Theme.Corporate
         public Models.Theme Theme => new Models.Theme
         {
             Name = "Corporate Theme",
-            Version = "6.0.0",
+            Version = "6.0.1",
             PackageName = "Oqtane.Theme.Corporate",
             ThemeSettingsType = "Oqtane.Theme.Corporate.ThemeSettings, Oqtane.Theme.Corporate.Client.Oqtane",
             ContainerSettingsType = "Oqtane.Theme.Corporate.ContainerSettings, Oqtane.Theme.Corporate.Client.Oqtane",

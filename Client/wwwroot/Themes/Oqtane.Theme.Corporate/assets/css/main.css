@@ -1892,3 +1892,15 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+
+/*--------------------------------------------------------------
+# Overrides Section
+--------------------------------------------------------------*/
+
+.app-search-noinput button {
+    color: var(--nav-color);
+}
+
+.app-search-noinput button:hover {
+    color: var(--nav-hover-color);
+}
