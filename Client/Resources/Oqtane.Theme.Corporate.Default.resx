@@ -135,10 +135,9 @@
         &lt;div class="col-lg-2 col-md-3 footer-links"&gt;
           &lt;h4&gt;Useful Links&lt;/h4&gt;
           &lt;ul&gt;
-            &lt;li&gt;&lt;i class="bi bi-chevron-right"&gt;&lt;/i&gt; &lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;i class="bi bi-chevron-right"&gt;&lt;/i&gt; &lt;a href="#"&gt;About us&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;i class="bi bi-chevron-right"&gt;&lt;/i&gt; &lt;a href="#"&gt;Services&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;i class="bi bi-chevron-right"&gt;&lt;/i&gt; &lt;a href="#"&gt;Terms of service&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;i class="bi bi-chevron-right"&gt;&lt;/i&gt; &lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;i class="bi bi-chevron-right"&gt;&lt;/i&gt; &lt;a href="/terms"&gt;Terms of Service&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;i class="bi bi-chevron-right"&gt;&lt;/i&gt; &lt;a href="/privacy"&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
         &lt;div class="col-lg-2 col-md-3 footer-links"&gt;
