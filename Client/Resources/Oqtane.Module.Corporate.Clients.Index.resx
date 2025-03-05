@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="About Us" xml:space="preserve">
+  <data name="AboutUs.Content" xml:space="preserve">
     <value>    &lt;!-- About Section --&gt;
     &lt;section id="about" class="about section"&gt;
       &lt;div class="container section-title" data-aos="fade-up"&gt;
@@ -145,7 +145,10 @@
     &lt;/section&gt;
     &lt;!-- End About Section --&gt;</value>
   </data>
-  <data name="Call To Action" xml:space="preserve">
+  <data name="AboutUs.Title" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="CTA.Content" xml:space="preserve">
     <value>    &lt;!-- Call To Action Section --&gt;
     &lt;section id="call-to-action" class="call-to-action section dark-background"&gt;
       &lt;img src="[wwwroot]Themes/Oqtane.Theme.Corporate/assets/img/cta-bg.jpg" alt=""&gt;
@@ -163,7 +166,7 @@
     &lt;/section&gt;
     &lt;!-- End Call To Action Section --&gt;</value>
   </data>
-  <data name="Clients" xml:space="preserve">
+  <data name="Clients.Content" xml:space="preserve">
     <value>    &lt;!-- Clients Section --&gt;
     &lt;section id="clients" class="clients section light-background"&gt;
       &lt;div class="container" data-aos="zoom-in"&gt;
@@ -220,7 +223,10 @@
     &lt;/section&gt;
     &lt;!-- End Clients Section --&gt;</value>
   </data>
-  <data name="FAQs" xml:space="preserve">
+  <data name="Clients.Title" xml:space="preserve">
+    <value>Clients</value>
+  </data>
+  <data name="FAQ.Content" xml:space="preserve">
     <value>    &lt;!-- FAQ Section --&gt;
     &lt;section id="faq-2" class="faq-2 section light-background"&gt;
       &lt;div class="container section-title" data-aos="fade-up"&gt;
@@ -278,7 +284,7 @@
     &lt;/section&gt;
     &lt;!-- FAQ Section --&gt;</value>
   </data>
-  <data name="Portfolio" xml:space="preserve">
+  <data name="Portfolio.Content" xml:space="preserve">
     <value>    &lt;!-- Portfolio Section --&gt;
     &lt;section id="portfolio" class="portfolio section"&gt;
       &lt;div class="container section-title" data-aos="fade-up"&gt;
@@ -381,7 +387,7 @@
     &lt;/section&gt;
     &lt;!-- End Portfolio Section --&gt;</value>
   </data>
-  <data name="Pricing" xml:space="preserve">
+  <data name="Pricing.Content" xml:space="preserve">
     <value>    &lt;!-- Pricing Section --&gt;
     &lt;section id="pricing" class="pricing section light-background"&gt;
       &lt;div class="container section-title" data-aos="fade-up"&gt;
@@ -437,7 +443,7 @@
     &lt;/section&gt;
     &lt;!-- End Pricing Section --&gt;</value>
   </data>
-  <data name="Services" xml:space="preserve">
+  <data name="Services.Content" xml:space="preserve">
     <value>    &lt;!-- Services Section --&gt;
     &lt;section id="services" class="services section light-background"&gt;
       &lt;div class="container section-title" data-aos="fade-up"&gt;
@@ -479,7 +485,10 @@
     &lt;/section&gt;
     &lt;!-- End Services Section --&gt;</value>
   </data>
-  <data name="Skills" xml:space="preserve">
+  <data name="Services.Title" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Skills.Content" xml:space="preserve">
     <value>    &lt;!-- Skills Section --&gt;
     &lt;section id="skills" class="skills section"&gt;
       &lt;div class="container" data-aos="fade-up" data-aos-delay="100"&gt;
@@ -524,7 +533,10 @@
     &lt;/section&gt;
     &lt;!-- End Skills Section --&gt;</value>
   </data>
-  <data name="Team" xml:space="preserve">
+  <data name="Skills.Title" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+  <data name="Team.Content" xml:space="preserve">
     <value>    &lt;!-- Team Section --&gt;
     &lt;section id="team" class="team section"&gt;
       &lt;div class="container section-title" data-aos="fade-up"&gt;
@@ -602,7 +614,7 @@
     &lt;/section&gt;
     &lt;!-- End Team Section --&gt;</value>
   </data>
-  <data name="Testimonials" xml:space="preserve">
+  <data name="Testimonials.Content" xml:space="preserve">
     <value>    &lt;!-- Testimonials Section --&gt;
     &lt;section id="testimonials" class="testimonials section"&gt;
       &lt;div class="container section-title" data-aos="fade-up"&gt;
@@ -709,7 +721,7 @@
     &lt;/section&gt;
     &lt;!-- End Testimonials Section --&gt;</value>
   </data>
-  <data name="Why Us" xml:space="preserve">
+  <data name="WhyUs.Content" xml:space="preserve">
     <value>    &lt;!-- Why Us Section --&gt;
     &lt;section id="why-us" class="section why-us light-background" data-builder="section"&gt;
       &lt;div class="container-fluid"&gt;
@@ -752,5 +764,26 @@
       &lt;/div&gt;
     &lt;/section&gt;
     &lt;!-- End Why Us Section --&gt;</value>
+  </data>
+  <data name="WhyUs.Title" xml:space="preserve">
+    <value>Why Us</value>
+  </data>
+  <data name="CTA.Title" xml:space="preserve">
+    <value>Call To Action</value>
+  </data>
+  <data name="Portfolio.Title" xml:space="preserve">
+    <value>Portfolio</value>
+  </data>
+  <data name="Team.Title" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="Pricing.Title" xml:space="preserve">
+    <value>Pricing</value>
+  </data>
+  <data name="Testimonials.Title" xml:space="preserve">
+    <value>Testimonials</value>
+  </data>
+  <data name="FAQ.Title" xml:space="preserve">
+    <value>FAQs</value>
   </data>
 </root>
