@@ -38,7 +38,20 @@
             }
         </div>
     </div>
-    <br />
+    <div class="row mb-1 align-items-center">
+        <Label Class="col-sm-3" For="_footerHTML" HelpText="Specify if you wish to include a footer section for this site">Footer Section?</Label>
+        <div class="col-sm-9">
+            <select id="footerHTML" class="form-select" value="@_footer" @onchange="(e => FooterChanged(e))">
+                <option value="True">Yes</option>
+                <option value="False">No</option>
+            </select>
+            @if (_footer == "True")
+            {
+                <textarea id="footerHTML" class="form-control" @bind="@_footerHTML" rows="5"></textarea>
+            }
+        </div>
+    </div>
+    <hr />
     <div class="row mb-1 align-items-center">
         <Label Class="col-sm-3" For="heroHTML" HelpText="Specify if you wish to include a hero banner for this page">Hero Banner?</Label>
         <div class="col-sm-9">
@@ -60,20 +73,6 @@
                 <option value="standard">Standard Width</option>
                 <option value="full">Full Width</option>
             </select>
-        </div>
-    </div>
-    <br />
-    <div class="row mb-1 align-items-center">
-        <Label Class="col-sm-3" For="_footerHTML" HelpText="Specify if you wish to include a footer section for this site">Footer Section?</Label>
-        <div class="col-sm-9">
-            <select id="footerHTML" class="form-select" value="@_footer" @onchange="(e => FooterChanged(e))">
-                <option value="True">Yes</option>
-                <option value="False">No</option>
-            </select>
-            @if (_footer == "True")
-            {
-                <textarea id="footerHTML" class="form-control" @bind="@_footerHTML" rows="5"></textarea>
-            }
         </div>
     </div>
 </div>
