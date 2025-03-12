@@ -9,7 +9,7 @@ namespace Oqtane.Module.Corporate.Pricing
         {
             Name = "Corporate Theme - Pricing",
             Description = "Add a Pricing section to your Corporate Theme",
-            Version = "6.0.1",
+            Version = "6.1.1",
             PackageName = "Oqtane.Theme.Corporate"
         };
     }

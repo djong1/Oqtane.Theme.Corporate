@@ -9,7 +9,7 @@ namespace Oqtane.Module.Corporate.AboutUs
         {
             Name = "Corporate Theme - About Us",
             Description = "Add an About Us section to your Corporate Theme",
-            Version = "6.0.1",
+            Version = "6.1.1",
             PackageName = "Oqtane.Theme.Corporate"
         };
     }

@@ -9,7 +9,7 @@ namespace Oqtane.Module.Corporate.WhyUs
         {
             Name = "Corporate Theme - Why Us",
             Description = "Add a Why Us section to your Corporate Theme",
-            Version = "6.0.1",
+            Version = "6.1.1",
             PackageName = "Oqtane.Theme.Corporate"
         };
     }

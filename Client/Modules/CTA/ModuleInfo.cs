@@ -9,7 +9,7 @@ namespace Oqtane.Module.Corporate.CTA
         {
             Name = "Corporate Theme - Call To Action",
             Description = "Add a Call To Action section to your Corporate Theme",
-            Version = "6.0.1",
+            Version = "6.1.1",
             PackageName = "Oqtane.Theme.Corporate"
         };
     }
