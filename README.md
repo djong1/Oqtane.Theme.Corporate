@@ -14,10 +14,9 @@ This theme includes Theme Settings which can be accessed in the Edit Page UI (or
 
 ![image](https://github.com/user-attachments/assets/bbf7684b-9806-4dcd-a88b-77e2ee07ca45)
 
-This theme also includes a Content Module which can be injected into a page and provides access to a variety of professionally styles sections such as Clients, About Us, Why Us, Skills, Services, Call To Action, Portfolio, Team, Pricing, Testimonials, and FAQs.
+This theme also includes Content Modules which can be injected into a page to provide a variety of professionally styled sections such as Clients, About Us, Why Us, Skills, Services, Call To Action, Portfolio, Team, Pricing, Testimonials, and FAQs.
 
-![image](https://github.com/user-attachments/assets/e792110d-c2ae-4a36-9206-a1088e16da66)
+![image](https://github.com/user-attachments/assets/a7f1f61a-f049-4e99-ad5d-f8a9aec8daf6)
 
-![image](https://github.com/user-attachments/assets/6993e3bb-47bf-43ed-a602-e4a9efabb52f)
 
 
