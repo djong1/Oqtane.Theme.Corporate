@@ -204,6 +204,16 @@ function initializeTheme() {
     }
     document.addEventListener('scroll', navmenuScrollspy);
     navmenuScrollspy();
+
+    /**
+    * Init Pure Counter 
+    */
+    new PureCounter();
+
+    /**
+    * Init Countdown 
+    */
+    Countdown();
 }
 
 initializeTheme();

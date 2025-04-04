@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Oqtane.Theme.Corporate</id>
-    <version>6.1.1</version>
+    <version>6.1.2</version>
     <authors>Oqtane Labs Inc</authors>
     <owners>Oqtane Labs Inc</owners>
     <title>Corporate Theme</title>

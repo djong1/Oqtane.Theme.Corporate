@@ -10,7 +10,7 @@ namespace Oqtane.Theme.Corporate
         public Models.Theme Theme => new Models.Theme
         {
             Name = "Corporate Theme",
-            Version = "6.1.1",
+            Version = "6.1.2",
             PackageName = "Oqtane.Theme.Corporate",
             ThemeSettingsType = "Oqtane.Theme.Corporate.ThemeSettings, Oqtane.Theme.Corporate.Client.Oqtane",
             ContainerSettingsType = "Oqtane.Theme.Corporate.ContainerSettings, Oqtane.Theme.Corporate.Client.Oqtane",
@@ -34,6 +34,8 @@ namespace Oqtane.Theme.Corporate
                 new Script("~/assets/vendor/waypoints/noframework.waypoints.js"),
                 new Script("~/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"),
                 new Script("~/assets/vendor/isotope-layout/isotope.pkgd.min.js"),
+                new Script("~/assets/vendor/purecounter/purecounter.js"),
+                new Script("~/assets/vendor/countdown/countdown.js"),
                 // Main JavaScript 
                 new Script("~/assets/js/main.js", "", "", ResourceLocation.Body, ResourceLoadBehavior.Always, null, "", "", RenderModes.Static),
                 new Script("~/assets/js/interop.js", "", "", ResourceLocation.Body, ResourceLoadBehavior.None, null, "", "", RenderModes.Interactive)

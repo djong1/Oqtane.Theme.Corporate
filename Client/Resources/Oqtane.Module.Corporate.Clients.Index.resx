@@ -786,4 +786,72 @@
   <data name="FAQ.Title" xml:space="preserve">
     <value>FAQs</value>
   </data>
+  <data name="Counter.Title" xml:space="preserve">
+    <value>Counter</value>
+  </data>
+  <data name="Counter.Content" xml:space="preserve">
+    <value>&lt;!-- Counter Section --&gt;
+&lt;section id="counter" class="counter"&gt;
+  &lt;div class="container" data-aos="fade-up"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-lg-3 col-md-6"&gt;
+        &lt;div class="count-box"&gt;
+          &lt;i class="bi bi-emoji-smile"&gt;&lt;/i&gt;
+          &lt;span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"&gt;&lt;/span&gt;
+          &lt;p&gt;Clients&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="col-lg-3 col-md-6 mt-5 mt-md-0"&gt;
+        &lt;div class="count-box"&gt;
+          &lt;i class="bi bi-speedometer2"&gt;&lt;/i&gt;
+           &lt;span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"&gt;&lt;/span&gt;
+          &lt;p&gt;Projects&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="col-lg-3 col-md-6 mt-5 mt-lg-0"&gt;
+        &lt;div class="count-box"&gt;
+          &lt;i class="bi bi-star"&gt;&lt;/i&gt;
+          &lt;span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"&gt;&lt;/span&gt;
+          &lt;p&gt;Awards&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="col-lg-3 col-md-6 mt-5 mt-lg-0"&gt;
+        &lt;div class="count-box"&gt;
+          &lt;i class="bi bi-people"&gt;&lt;/i&gt;
+          &lt;span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"&gt;&lt;/span&gt;
+          &lt;p&gt;Employees&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</value>
+  </data>
+  <data name="Countdown.Title" xml:space="preserve">
+    <value>Countdown</value>
+  </data>
+  <data name="Countdown.Content" xml:space="preserve">
+    <value>&lt;!-- Countdown Section --&gt;
+&lt;section id="countdown" class="countdown"&gt;
+  &lt;h2&gt;Christmas Day 2025&lt;/h2&gt;
+  &lt;div id="countdown-enddate" class="enddate"&gt;Dec 25, 2025 00:00&lt;/div&gt;
+  &lt;div class="container countdown" data-aos="fade-up"&gt;
+    &lt;div class="interval"&gt;
+      &lt;span id="countdown-days" class="timer"&gt;&lt;/span&gt;
+      &lt;span class="measure"&gt;Days&lt;/span&gt; 
+    &lt;/div&gt;
+    &lt;div class="interval"&gt;
+      &lt;span id="countdown-hours" class="timer"&gt;&lt;/span&gt;
+      &lt;span class="measure"&gt;Hours&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="interval"&gt;
+      &lt;span id="countdown-minutes" class="timer"&gt;&lt;/span&gt;
+      &lt;span class="measure"&gt;Minutes&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="interval"&gt;
+      &lt;span id="countdown-seconds" class="timer"&gt;&lt;/span&gt;
+      &lt;span class="measure"&gt;Seconds&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt; </value>
+  </data>
 </root>
